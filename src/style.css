@@ -706,7 +706,6 @@ nav {
 .footdiv:nth-child(2){
     width: 40%;
     height: 100%;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
