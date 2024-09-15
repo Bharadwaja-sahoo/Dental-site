@@ -1,0 +1,220 @@
+/* For Small Devices */
+@media screen and (max-width:679px){
+    #homeimg img {
+        z-index: 0;
+        height: 50%;
+        bottom: 0;
+        left: 0;
+    }
+    #hometext {
+        width: 100%;
+    }
+    #secondpage {
+        flex-direction: column;
+    }
+    .secdiv {
+        margin: 0px 0px;
+    }
+    .secdiv:nth-child(1) {
+        width: 100%;
+        height: 60%;
+        padding: 50px;
+    }
+    .secdiv:nth-child(2) {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secimgdiv {
+        border-radius: 30px;
+    }
+    #thirdpage {
+        height: 150vh;
+    }
+    .thirdmindiv:nth-child(2) {
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+    .thirdmindiv:nth-child(1) {
+        height: 25%;
+    }
+    .thirdmindiv:nth-child(2){
+        height: 75%;
+        justify-content: space-evenly;
+    }
+    .fourthmid:nth-child(1){
+        width: 45%;
+    }
+    .fourthmid:nth-child(2){
+        width: 50%;
+    }
+    .fourthfoot:nth-child(1){
+        width: 45%;
+    }
+    
+    .fourthfoot:nth-child(2){
+        display: none;
+    }
+    .fourthfoot:nth-child(3){
+        width: 50%;
+    }
+    .fifthcontent:nth-child(2){
+        flex-direction: column;
+    }
+    .fifthmain:nth-child(1){
+        width: 100%;
+        height: 60%;
+    }
+    .fifthcard{
+        width: 49%;
+        height: 400px;
+    }
+    .fifthmain:nth-child(2){
+        width: 100%;
+        height: 350px;
+        padding: 0px 50px;
+        margin-bottom: 20px;
+    }
+    #foot{
+        height: 100%;
+        padding: 50px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footdiv:nth-child(1){
+        width: 100%;
+        height: 45%;
+    }
+    .footdiv:nth-child(2){
+        width: 100%;
+        height: 50%;
+    }
+    .footimg{
+        width: 100%;
+        height: 100%;
+    }
+    .foothead{
+        margin-bottom: 50px;
+    }
+    #menu-bar a{
+        font-size: 30px;
+    }
+    .cross{
+        font-size: 30px;
+        top: 2%;
+        right: 7%;
+        padding: 30px;
+    }
+}
+/* tab view */
+@media screen and (max-width:999px){
+    #homeimg img {
+        z-index: 0;
+        height: 50%;
+        bottom: 0;
+        left: 0;
+    }
+    #hometext {
+        width: 100%;
+    }
+    #secondpage {
+        flex-direction: column;
+    }
+    .secdiv {
+        margin: 0px 0px;
+    }
+    .secdiv:nth-child(1) {
+        width: 100%;
+        height: 60%;
+        padding: 50px;
+    }
+    .secdiv:nth-child(2) {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secimgdiv {
+        border-radius: 30px;
+    }
+    #thirdpage {
+        height: 150vh;
+    }
+    .thirdmindiv:nth-child(2) {
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+    .thirdmindiv:nth-child(1) {
+        height: 25%;
+    }
+    .thirdmindiv:nth-child(2){
+        height: 75%;
+        justify-content: space-evenly;
+    }
+    .fourthmid:nth-child(1){
+        width: 45%;
+    }
+    .fourthmid:nth-child(2){
+        width: 50%;
+    }
+    .fourthfoot:nth-child(1){
+        width: 45%;
+    }
+    
+    .fourthfoot:nth-child(2){
+        display: none;
+    }
+    .fourthfoot:nth-child(3){
+        width: 50%;
+    }
+    .fifthcontent:nth-child(2){
+        flex-direction: column;
+    }
+    .fifthmain:nth-child(1){
+        width: 100%;
+        height: 60%;
+    }
+    .fifthcard{
+        width: 49%;
+        height: 400px;
+    }
+    .fifthmain:nth-child(2){
+        width: 100%;
+        height: 350px;
+        padding: 0px 50px;
+        margin-bottom: 20px;
+    }
+    #foot{
+        height: 100%;
+        padding: 50px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footdiv:nth-child(1){
+        width: 100%;
+        height: 45%;
+    }
+    .footdiv:nth-child(2){
+        width: 100%;
+        height: 50%;
+    }
+    .footimg{
+        width: 100%;
+        height: 100%;
+    }
+    .foothead{
+        margin-bottom: 50px;
+    }
+    #menu-bar a{
+        font-size: 30px;
+    }
+    .cross{
+        font-size: 30px;
+        top: 2%;
+        right: 7%;
+        padding: 30px;
+    }
+}
