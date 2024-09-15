@@ -836,3 +836,14 @@ form button:hover {
     color: #fff;
     border: 2px solid #fff;
 }
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #afc9c8;
+}
+footer span a{
+    color: #232946;
+}
