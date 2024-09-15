@@ -74,7 +74,7 @@
     .fifthmain:nth-child(2){
         width: 100%;
         height: 350px;
-        padding: 0px 50px;
+        padding: 0px 0px;
         margin-bottom: 20px;
     }
     #foot{
@@ -184,7 +184,7 @@
     .fifthmain:nth-child(2){
         width: 100%;
         height: 350px;
-        padding: 0px 50px;
+        padding: 0px 0px;
         margin-bottom: 20px;
     }
     #foot{

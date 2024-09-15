@@ -602,7 +602,7 @@ nav {
     padding: 0px 50px;
 }
 .fifthmain:nth-child(1){
-    width: 61%;
+    width: 60%;
     height: 90%;
     display: flex;
     align-items: start;
@@ -642,13 +642,26 @@ nav {
     background-color: #ffffff;
 }
 .fifthmain:nth-child(2){
-    width: 500px;
-    height: 500px;
+    width: 38%;
+    height: 90%;
+}
+#candidimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 30px;
-    background-image: url(../assets/candid.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    overflow: hidden;
+}
+#candidimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2s ease;
+}
+#candidimg img:hover{
+    transform: scale(1.2);
 }
 .profile{
     display: flex;
@@ -675,7 +688,7 @@ nav {
 }
 #foot{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -689,8 +702,8 @@ nav {
     justify-content: center;
 }
 .footimg{
-    width: 550px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -708,8 +721,9 @@ nav {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
+    gap: 40px;
 }
 .foothead{
     width: 100%;
@@ -729,7 +743,13 @@ nav {
 }
 form{
     width: 100%;
-    height: 90%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -740,8 +760,11 @@ label {
 }
 
 input, textarea {
+    max-width: 100%;
+    min-width: 100%;
+    height: 40px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
